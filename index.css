@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(172, 165, 165);
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+.container {
+  width: 350px;
+  height: 550px;
+  background: #fff;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgb(150, 149, 149);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.result {
+  height: 150px;
+  border-bottom: 1px solid #111;
+}
+.history {
+  text-align: right;
+  height: 40px;
+  margin: 0 20px;
+  padding-top: 25px;
+  font-size: 1em;
+  color: rgb(202, 199, 199);
+}
+
+.output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 1.5em;
+}
+.output-value {
+  color: rgb(24, 36, 206);
+}
+
+.keys {
+  height: 400px;
+  /* outline: none; */
+}
+.operater,
+.number,
+.empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: center;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.number,
+.empty {
+  background: #fff;
+}
+.number,
+.operater {
+  cursor: pointer;
+}
+button:nth-child(4) {
+  font-size: 1.6em;
+  background: #e67e42;
+}
+button:nth-child(8) {
+  font-size: 1.6em;
+  background: rgb(245, 231, 102);
+}
+
+button:nth-child(12) {
+  font-size: 1.6em;
+  background: #ee6599;
+}
+
+button:nth-child(16) {
+  font-size: 1.6em;
+  background: #d97dec;
+}
+button:nth-child(20) {
+  font-size: 1.6em;
+  background: #56c1e2;
+}
